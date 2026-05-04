@@ -6,6 +6,7 @@ PANDOC_FLAGS = -f typst -t html5 --standalone \
 	--lua-filter pandoc/layout.lua \
 	--css pandoc/resume.css \
 	--embed-resources \
+	--metadata title=""
 
 $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
