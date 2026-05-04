@@ -63,29 +63,30 @@ span.smallcaps {
 }
 
 /* --- Header / Name --- */
-body > p:first-of-type {
+body > p:nth-of-type(1) {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
-body > p:first-of-type strong {
+body > p:nth-of-type(1) strong {
   font-size: 24pt;
   font-weight: 700;
   display: block;
   margin-bottom: 0.1em;
 }
 
-body > p:first-of-type span[data-align="right"] {
+body > p:nth-of-type(1) span[data-align="center"] {
   display: block;
+}
+
+/* Contact info */
+body > p:nth-of-type(2) {
   text-align: right;
+  margin-top: 0;
+  margin-bottom: 1.4em;
   font-size: 10pt;
   line-height: 1.5;
   color: #444;
-}
-
-/* override pandoc's hr inside the header paragraph (data-align spans use br) */
-body > p:first-of-type span[data-align="center"] {
-  display: block;
 }
 
 /* --- Section Headings --- */
