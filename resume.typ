@@ -102,6 +102,7 @@ _Colégio Eniac_, Guarulhos, Brazil \
 - #link("https://github.com/crocidb/bulletty")[*bulletty*]: A modern TUI feed reader that stores articles locally as Markdown. Written in Rust.
 - #link("https://github.com/crocidb/annileen")[*annileen*]: A toy 3D game engine made in C++ using BGFX as a graphics backend. Tooling is mostly in Python.
 - #link("https://github.com/crocidb/flingern")[*flingern*]: Art gallery static website generator written in Python. It powers my art website.
+- *Keywords*: Rust, C++, Linux, FreeBSD, Python, Javascript, Retro Computing, Shader Programming, audio, gamedev
 
 == Additional Information
 
